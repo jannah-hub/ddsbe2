@@ -27,6 +27,7 @@ $app->withFacades();
 
 $app->withEloquent();
 
+//add config 'database'
 $app->configure('database');
 
 /*
